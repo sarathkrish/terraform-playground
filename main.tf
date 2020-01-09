@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_instance" "new_ec2" {
 
 ami = "ami-03caa3f860895f82e"
-type = "t3.micro"
+instance_type = "t3.micro"
 
 }
 
